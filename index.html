@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>生死狙击MS杯团队赛 冠军荣誉殿堂</title>
+    <title>生死狙击团队系列赛 冠军荣誉殿堂</title>
     <style>
         :root {
             --gold: #d4af37;
@@ -26,6 +27,7 @@
             letter-spacing: 5px;
             color: var(--gold);
             text-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+            text-align: center;
         }
 
         .monument-container {
@@ -70,7 +72,6 @@
             color: var(--gold);
         }
 
-        /* 底部提示 */
         .footer-note {
             margin-top: 20px;
             color: #666;
@@ -80,7 +81,7 @@
 </head>
 <body>
 
-    <h1>生死狙击MS杯团队赛 冠军荣誉殿堂</h1>
+    <h1>生死狙击团队系列赛 冠军荣誉殿堂</h1>
 
     <div class="monument-container">
         <div class="champion-shrine" onclick="showId('S1', ['向晚Ava','乃琳Eileen','嘉然Diana','珈乐Carol','GenshinKing'])">
@@ -108,7 +109,6 @@
 
     <script>
         function showId(season, members) {
-            // 将数组转换成换行的字符串
             const list = members.join('\n• ');
             alert(season + " 冠军组名单：\n\n• " + list);
         }
@@ -116,5 +116,4 @@
 
 </body>
 </html>
-
 
